@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primer Despliegue en Google Cloud ☁️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Ami Ocampo</h1>
+            <p class="subtitle">Desplegada en Google Cloud</p>
+        </header>
+
+        <main>
+            <section class="info-card">
+                <h2>ℹ️ Información del Despliegue</h2>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <strong>Estado:</strong>
+                        <span class="status online">✓ En línea</span>
+                    </div>
+                    <div class="info-item">
+                        <strong>Hora del servidor:</strong>
+                        <span id="server-time">Cargando...</span>
+                    </div>
+                    <div class="info-item">
+                        <strong>Puerto:</strong>
+                        <span>8080</span>
+                    </div>
+                    <div class="info-item">
+                        <strong>Plataforma:</strong>
+                        <span>Google Cloud Run 🌥️</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="features">
+                <h2>🎯 Características de Este Proyecto</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <h3>📄 HTML Moderno</h3>
+                        <p>Estructura semántica y accesible</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>🎨 CSS Responsivo</h3>
+                        <p>Se adapta a cualquier dispositivo</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>⚙️ Docker</h3>
+                        <p>Containerizado para consistencia</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>☁️ Cloud Ready</h3>
+                        <p>Escalable y automático</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="interactive">
+                <h2>🎮 Prueba la Interactividad</h2>
+                <button class="btn" onclick="mostrarMensaje()">Haz clic aquí 👆</button>
+                <div id="mensaje" class="mensaje-hidden"></div>
+            </section>
+
+            <section class="code-example">
+                <h2>💻 Código Que Hicimos</h2>
+                <p>Este proyecto usa:</p>
+                <ul>
+                    <li><strong>Frontend:</strong> HTML5 + CSS3 + JavaScript</li>
+                    <li><strong>Containerización:</strong> Docker</li>
+                    <li><strong>Servidor:</strong> Nginx</li>
+                    <li><strong>Despliegue:</strong> Google Cloud Run</li>
+                </ul>
+            </section>
+
+            <section class="stats">
+                <h2>📊 Visitantes</h2>
+                <div class="stat-card">
+                    <p id="contador">Recargando página...</p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Creado para aprender 📚 | Clase de Modelado de Software 🎓</p>
+            <p>Hecho con ❤️ en Visual Studio Code</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

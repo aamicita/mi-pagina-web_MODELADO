@@ -1,0 +1,209 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║   🚀 ¡BIENVENIDO A TU PRIMER PROYECTO DE CLOUD COMPUTING! 🚀               ║
+║                                                                              ║
+║   Hola! Estás a punto de aprender:                                         ║
+║   ✅ Cómo crear una página web (HTML, CSS, JavaScript)                     ║
+║   ✅ Cómo containerizarla con Docker                                       ║
+║   ✅ Cómo desplegarla en Google Cloud                                      ║
+║   ✅ Cómo configurar auto-escalado a cero                                  ║
+║                                                                              ║
+║   ¡Y lo haremos paso a paso, desde cero! 🌟                                ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+👇 EMPIEZA AQUÍ (Elige una opción):
+
+   1️⃣  "QUIERO EMPEZAR YA" (5 minutos)
+       📄 Abre: INICIO_RAPIDO.md
+       ⏱️  Tiempo: 5 minutos
+       🎯 Resultado: Tu primer cambio en la página
+
+   2️⃣  "PREFIERO APRENDER PASO A PASO" (3 horas)
+       📄 Abre: ROADMAP_APRENDIZAJE.md
+       ⏱️  Tiempo: 3 horas (puedes parar en cualquier momento)
+       🎯 Resultado: Página en vivo en Google Cloud
+
+   3️⃣  "NECESITO DOCUMENTACIÓN COMPLETA"
+       📄 Abre: INDICE.md
+       🎯 Centro de todos los recursos
+
+   4️⃣  "SÓ QUIERO DESPLEGAR EN LA NUBE"
+       📄 Abre: DESPLIEGUE_GOOGLE_CLOUD.md
+       ⏱️  Tiempo: 2-3 horas
+       🎯 Resultado: Tu página en https://...
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📂 ¿QUÉ ARCHIVOS HAY AQUÍ?
+
+EDITA ESTOS (Son los más importantes):
+├── index.html      ← Tu página web (edita el contenido aquí)
+├── style.css       ← Colores y diseño (edita los estilos aquí)
+└── script.js       ← Interactividad (edita las funciones aquí)
+
+LEE ESTOS (Son las instrucciones):
+├── INICIO_RAPIDO.md              ← Comienza aquí (5 min)
+├── ROADMAP_APRENDIZAJE.md        ← Ruta completa (3 horas)
+├── DESPLIEGUE_GOOGLE_CLOUD.md    ← Cómo subir a la nube (2-3 horas)
+├── GUIA_COMPLETA.md              ← Tutorial educativo
+├── INDICE.md                     ← Centro de recursos
+└── README.md                     ← Overview del proyecto
+
+CONFIGURACIÓN (No toques si no sabes qué haces):
+├── Dockerfile
+├── docker-compose.yml
+├── nginx.conf
+├── .dockerignore
+└── .instructions.md
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚡ COMANDO MÁS RÁPIDO PARA VER TU PÁGINA:
+
+1. Abre index.html en tu navegador
+   → Clic derecho en "index.html" → "Open with" → Tu navegador favorito
+
+2. ¡Deberías ver una página bonita con fondo púrpura!
+
+3. Haz clic en el botón "Haz clic aquí 👆"
+
+4. ¡Enhorabuena! Ya funcionó correctamente 🎉
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 OBJETIVOS DEL PROYECTO:
+
+✅ Crear página web
+   ├─ Aprender HTML (estructura)
+   ├─ Aprender CSS (estilos)
+   └─ Aprender JavaScript (interactividad)
+
+✅ Containerizar con Docker
+   ├─ Entender qué es un contenedor
+   ├─ Crear un Dockerfile
+   └─ Ejecutar localmente
+
+✅ Desplegar en Google Cloud
+   ├─ Crear cuenta en Google Cloud
+   ├─ Configurar Cloud Run
+   ├─ Hacer push de imagen
+   └─ Ver página en vivo
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+❓ PREGUNTAS FRECUENTES:
+
+P: ¿Necesito instalar algo?
+R: Para la página web: NO. Para Docker: SÍ (descarga Docker Desktop)
+   Para Google Cloud: SÍ (descarga Google Cloud SDK)
+
+P: ¿Cuánto tiempo toma todo?
+R: Depende:
+   - Solo página web: 1 hora
+   - Página + Docker: 2-3 horas
+   - Todo completo: 3-4 horas
+
+P: ¿Cuesta dinero?
+R: NO. Google Cloud da $300 gratis el primer año.
+   Tu app cuesta $0 si tienes pocos visitantes.
+
+P: ¿Qué pasa si cometo un error?
+R: ¡NADA! Puedes:
+   - Ctrl+Z para deshacer en código
+   - Reconstruir Docker
+   - Re-desplegar en Google Cloud
+   Eres principiante, cometer errores es NORMAL y ÚTIL. 🎓
+
+P: ¿Dónde pido ayuda?
+R: 1. Lee INDICE.md para encontrar documentación
+   2. Abre F12 en el navegador para ver errores
+   3. Copia el error en Google
+   4. Pregunta a Copilot en VS Code
+   5. Pide ayuda a tu profesor
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎓 ¿QUÉ APRENDERÁS?
+
+Tecnologías:
+  🖥️  HTML5 (estructura)
+  🎨 CSS3 (diseño)
+  ⚙️  JavaScript (interactividad)
+  🐳 Docker (containerización)
+  ☁️  Google Cloud (infraestructura)
+  📦 Nginx (servidor web)
+
+Conceptos:
+  🔧 DevOps
+  🚀 CI/CD (Integración Continua)
+  📈 Escalabilidad
+  💰 Optimización de costos
+  🌐 Computación en la nube
+
+Habilidades:
+  📝 Documentación clara
+  🤝 Trabajo en equipo
+  🎯 Resolución de problemas
+  💡 Pensamiento de ingeniero de software
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚀 CUANDO TERMINES TODO:
+
+Podrás decirle a tu profesor:
+
+  "Creé una página web responsiva con HTML5, CSS3 y JavaScript.
+   La containerizé con Docker en puerto 8080.
+   La desplegué en Google Cloud Run con auto-escalado a cero.
+   Está en vivo en: https://mi-pagina-xxxxx.a.run.app"
+
+¡ESO ES SERIO! 😎
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📍 DÓNDE ESTAMOS:
+
+   HORA 0:00 ← TÚ ESTÁS AQUÍ
+   │
+   ├─ HORA 1:00 → Página web lista
+   │
+   ├─ HORA 3:00 → Docker funcionando
+   │
+   └─ HORA 4:00 → ¡En la nube! 🎉
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✨ ÚLTIMO CONSEJO:
+
+No tengas prisa. Este es un camino de aprendizaje.
+Tómate tu tiempo en cada fase.
+Experimenta sin miedo.
+Pregunta cuando no entiendas.
+¡Celebra cada pequeño logro!
+
+Está muy bien que hayas llegado hasta aquí.
+Eres más ingeniero de software que hace 5 minutos. 💪
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+                    👉 ¿LISTO PARA EMPEZAR? 👈
+
+                     Abre: INICIO_RAPIDO.md
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+¿Preguntas?
+- Lee INDICE.md para encontrar toda la documentación
+- Abre Copilot en VS Code (Ctrl+I) y pregunta
+- Lee los archivos .md en orden
+
+¡A programar! 🚀
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Última actualización: 2 de junio de 2026
+Versión: 1.0
+Diseñado para: Estudiantes de Ingeniería de Software
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

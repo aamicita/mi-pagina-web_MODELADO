@@ -1,0 +1,18 @@
+# docker-compose.yml
+# Esto permite pruebar la aplicación localmente con Docker
+# Comando: docker-compose up
+
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "8080:8080"
+    container_name: mi-pagina-web
+    environment:
+      - NODE_ENV=production
+    restart: always
+    # Para desarrollo, puedes comentar restart y agregar:
+    # volumes:
+    #   - .:/usr/share/nginx/html
