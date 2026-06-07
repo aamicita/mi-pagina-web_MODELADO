@@ -3,7 +3,7 @@ steps:
   - name: 'gcr.io/cloud-builders/docker'
     args: ['build', '-t', 'gcr.io/ami-pagina-web/mi-pagina:$COMMIT_SHA', '.']
 
-  # Paso 1: SUBIR la imagen al registro (ESTO ES LO QUE FALTA)
+  # Paso 1: SUBIR la imagen al registro
   - name: 'gcr.io/cloud-builders/docker'
     args: ['push', 'gcr.io/ami-pagina-web/mi-pagina:$COMMIT_SHA']
 
@@ -21,8 +21,8 @@ steps:
       - '--platform'
       - 'managed'
       - '--allow-unauthenticated'
-      steps:
-  # ... tus pasos de compilación ...
+
+# 'options' debe ir al mismo nivel que 'steps', sin espacios al principio
 options:
   logging: CLOUD_LOGGING_ONLY
 
