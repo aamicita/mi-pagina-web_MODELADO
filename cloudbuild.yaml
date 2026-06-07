@@ -21,3 +21,8 @@ steps:
       - '--platform'
       - 'managed'
       - '--allow-unauthenticated'
+      steps:
+  # ... tus pasos de compilación ...
+options:
+  logging: CLOUD_LOGGING_ONLY
+
